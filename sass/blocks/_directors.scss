@@ -1,0 +1,89 @@
+.directors{
+  background-color: #004047;
+  background-image: url(../../images/directors-bg.svg);
+  background-repeat: no-repeat;
+  background-position: left top;
+
+}
+
+.directors__inner {
+  display: grid;
+  padding-bottom: 168px;
+}
+
+.people__box{
+  justify-content: space-between;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+
+.directors__title {
+  margin-top: 140px;
+  margin-bottom: 64px;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.people{
+  position: relative;
+  padding: 32px 0 56px;
+  width: 350px;
+  text-align: center;
+  background-color: #012F34;
+}
+
+.people{
+  margin-top: 76px;
+}
+
+
+.people__name {
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  text-align: center;
+  color: #79C8C7;
+}
+
+.comentary {
+  font-family: 'Livvic';
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+.comentary__width{
+  width: 244px;
+  margin-left: 50px;
+  margin-bottom: 24px;
+
+}
+
+.plus{
+  position: absolute;
+  bottom: -26px;
+  left: 145px;
+}
+
+.plus:hover{
+  color: #012F34;
+}
+.people-svg +.people-svg {
+  margin-left: 16px;
+}
+
+.people-svg:hover path{
+  fill: #F67E7E;
+}
+
+

@@ -1,0 +1,35 @@
+.clients {
+  background-color: #012F34;
+  background-image: url(../../images/clients-bg.png);
+  background-repeat: no-repeat;
+  background-position: left top;
+}
+
+.clients__inner {
+  padding-top: 140px;
+  padding-bottom: 151px;
+}
+
+.clients__img-inner{
+  max-width: 1110px;
+  display: flex;
+  margin:  0 auto;
+}
+.clients__img + .clients__img{
+  margin-left: 50px;
+}
+
+
+.clients__title {
+  margin-bottom: 70px;
+  font-family: 'Livvic';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+
+
