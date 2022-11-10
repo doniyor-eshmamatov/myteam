@@ -615,8 +615,8 @@ img {
 .intro__title {
   margin: 0;
   font-weight: 700;
-  font-size: 84px;
-  line-height: 84px;
+  font-size: 100px;
+  line-height: 100px;
   color: #FFFFFF;
 }
 
@@ -673,5 +673,121 @@ img {
   .intro__title {
     font-size: 40px;
     line-height: 40px;
+  }
+}
+.build {
+  padding: 200px 0 140px;
+  background-color: #012F34;
+  background-image: url("../../images/build-bgi.png");
+  background-repeat: no-repeat;
+  background-position: right bottom;
+}
+
+.build__inner {
+  display: flex;
+}
+
+.build__titlebox {
+  max-width: 445px;
+  margin-right: 200px;
+}
+
+.build__title {
+  margin: 0;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 48px;
+  color: #FFFFFF;
+}
+
+.build__item {
+  margin-bottom: 32px;
+  position: relative;
+}
+.build__item::before {
+  width: 72px;
+  height: 72px;
+  display: inline-block;
+  position: absolute;
+  background-image: url("../../images/build-icon1.svg");
+  left: -95px;
+  content: "";
+}
+.build__item:nth-child(2)::before {
+  background-image: url("../../images/build-icon2.svg");
+}
+.build__item:last-child::before {
+  background-image: url("../../images/build-icon3.svg");
+}
+
+.build__subtitle {
+  margin: 0 0 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 28px;
+  color: #F67E7E;
+}
+
+.build__subtext {
+  margin: 0;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 25px;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+}
+
+@media only screen and (max-width: 768px) {
+  .build {
+    padding: 140px 0 100px;
+    background-position: right top;
+  }
+  .build__inner {
+    max-width: 560px;
+    width: 100%;
+    margin: 0 auto;
+    flex-direction: column;
+    align-items: center;
+  }
+  .build__content {
+    max-width: 473px;
+    width: 100%;
+    padding: 64px 0 0 100px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  .build__titlebox {
+    margin-right: 0;
+    font-size: 32px;
+    line-height: 32px;
+  }
+}
+@media only screen and (max-width: 576px) {
+  .build__title {
+    font-size: 32px;
+    line-height: 32px;
+  }
+  .build__titlebox {
+    max-width: 240px;
+  }
+  .build__item::before {
+    left: 36%;
+    top: -90px;
+    content: "";
+  }
+  .build__item .build {
+    padding: 100px 0 60px;
+  }
+  .build__content {
+    max-width: 327px;
+    padding: 56px 0 0;
+  }
+  .build__item {
+    margin-bottom: 0;
+  }
+  .build__item {
+    margin-top: 136px;
   }
 }/*# sourceMappingURL=main.css.map */
