@@ -63,6 +63,10 @@
 }
 
 @include max-width(576px) {
+    .site-header {
+        padding: 48px 0;
+    }
+    
     .nav {
         display: none;
     }
