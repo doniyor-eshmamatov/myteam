@@ -7,22 +7,18 @@
 }
 
 .directors__inner {
-  display: grid;
-  padding-bottom: 168px;
+  padding: 140px 0 168px;
 }
 
 .people__box{
-  justify-content: space-between;
   display: flex;
+  justify-content: space-evenly;
   flex-wrap: wrap;
-
 }
 
 
 .directors__title {
-  margin-top: 140px;
-  margin-bottom: 64px;
-  font-family: 'Livvic';
+  margin: 0;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -34,7 +30,8 @@
 .people{
   position: relative;
   padding: 32px 0 56px;
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   text-align: center;
   background-color: #012F34;
 }
@@ -45,7 +42,6 @@
 
 
 .people__name {
-  font-family: 'Livvic';
   font-style: normal;
   font-weight: 700;
   font-size: 18px;
@@ -55,7 +51,6 @@
 }
 
 .comentary {
-  font-family: 'Livvic';
   font-size: 15px;
   line-height: 25px;
   text-align: center;
@@ -63,10 +58,7 @@
 }
 
 .comentary__width{
-  width: 244px;
-  margin-left: 50px;
   margin-bottom: 24px;
-
 }
 
 .plus{

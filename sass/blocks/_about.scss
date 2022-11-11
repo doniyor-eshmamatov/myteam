@@ -80,9 +80,13 @@
   }
 }
 
-@include max-width(576px) {
+@include max-width(376px) {
 
-  .hero__inner {
+  .hero{
+    background-image: none;
+  }
+
+  .hero {
     padding:5px;
     background-image: url(../../images/about-bg-mobile.svg);
     background-repeat: no-repeat;
