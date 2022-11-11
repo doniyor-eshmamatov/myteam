@@ -43,13 +43,14 @@
 @include max-width(768px) {
 
   .hero{
-    background-image: none;
+    // background-image: none;
   }
   
   .hero__inner {
     background-position: center bottom;
   }
 
+  
   .hero__inner {
     display: flex;
     flex-direction: column;

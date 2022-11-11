@@ -833,9 +833,6 @@ img {
 }
 
 @media only screen and (max-width: 768px) {
-  .hero {
-    background-image: none;
-  }
   .hero__inner {
     background-position: center bottom;
   }
