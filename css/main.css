@@ -580,6 +580,7 @@ img {
     flex-direction: column;
   }
   .site-footer__nav {
+    display: block;
     margin-top: 24px;
     margin-bottom: 24px;
   }
